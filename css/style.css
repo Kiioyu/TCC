@@ -13,7 +13,7 @@ div.entrada{
     display: flex;
     padding: 0 15vw;
     color: white;
-    width: 1300px;
+    width: auto;
 }
 
 div.entrada img{
