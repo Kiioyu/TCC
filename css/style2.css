@@ -1,0 +1,115 @@
+body{
+    background-color: #EBEBEB;
+    color: black;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    background-image: url(https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-position: center;
+    background-size: cover;
+}
+
+div.entrada{ 
+    background: #1a1a1a;
+    border-bottom: 1px solid #30302f;
+    height: 72px;
+    display: flex;
+    padding: 0 15vw;
+    color: white;
+    width: 1315px;
+}
+
+div.entrada img{
+    height: 40px;
+    width: auto;
+    padding-top: 15px;
+    padding-right: 140px;
+}
+
+div.entrada p{
+    display: flex;
+    margin-left: 150px;
+    padding-top: 5px;
+    margin: 15px;
+    margin-right: 80px;
+}
+
+div.entrada p:hover{
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+div.caixa{
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    padding: 32px;
+    padding-top: 10px;
+    margin: 92px auto;
+    width: 700px;
+    height: 550px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+    opacity: 90%;
+}
+
+div.nome-produto{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.nome-produto p{
+    font-size: 38px;
+}
+
+div.imagem-produto img{
+    width: 300px;
+    height: 300px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+div.descricao-produto{
+    display:inline-block;
+    vertical-align:top;
+    font-size: 26px;
+}
+
+div.descricao-produto p{
+    display:inline-block;
+    padding-left: 20px;
+}
+
+div.especificacoes{
+    display: flex;
+}
+
+div.especificacoes p{
+    font-size: 17px;
+    /*position: fixed;*/
+    padding-left: 10px;
+    width: 290px;
+}
+
+div.botao{
+    background: #000000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    color: #EBEBEB;
+}
+
+div.botao:hover{
+    box-shadow: 0 0 16px rgba(0, 0, 0, 1);
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
